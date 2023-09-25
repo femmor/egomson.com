@@ -10,7 +10,7 @@ import {FaGithubSquare} from 'react-icons/fa';
 import {useSectionInView} from '@/lib/hooks';
 import {useActiveSectionContext} from '@/context/active-section-context';
 
-import portrait from '@/public/femmy.jpeg';
+import portrait from '@/public/emmanuel.jpeg';
 
 export default function Intro() {
   const {ref} = useSectionInView('Home', 0.5);
@@ -109,6 +109,8 @@ export default function Intro() {
           className='bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'
           href='https://www.linkedin.com/in/emmanuel-egomson-9b344319b'
           target='_blank'
+          rel='noopener'
+          aria-label='link to linkedin profile'
         >
           <BsLinkedin />
         </a>
@@ -117,6 +119,8 @@ export default function Intro() {
           className='bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'
           href='https://github.com/femmor'
           target='_blank'
+          rel='noopener'
+          aria-label='link to github profile'
         >
           <FaGithubSquare />
         </a>

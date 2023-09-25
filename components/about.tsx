@@ -19,24 +19,15 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className='mb-3'>
-        I am an experienced front-end mobile/web developer based in
-        the Dallas area. A solution-driven professional excelling in
-        highly collaborative work environment. I started as a graphic
-        designer and my passion for user interface design fueled my
-        curiosity to learn how software works and communicate hence
-        honing my web development skills.{' '}
+        I am a UI/Front-end developer with a passion for creating accessible and pixel-perfect user experiences.
       </p>
       <p className='mb-3'>
-        My favorite part of programming is the problem-solving aspect.
-        I <span className='underline'>love</span> the feeling of
-        finally figuring out a solution to a problem. My core stack is{' '}
-        <span className='font-medium'>
-          React, Context API, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always
-        looking to learn new technologies. I am currently looking for
-        a <span className='font-medium'>full-time position</span> as a
-        frontend software developer.
+        I have consulted as a Frontend Developer on large-scale projects including a fintech company such as Union Bank. 
+        I have built React applications in fast-paced agile environments, collaborating with the design team, product owner, and clients to deliver 
+        high-quality solutions. 
+        I have contributed to the creation and maintenance of component libraries and design systems. 
+        I am a fast learner and can pick up new technologies on the fly. 
+        I am always excited to embrace new frameworks or dive into back-end code, as learning develops my skills as a developer.
       </p>
       <p>
         When I'm not coding, I enjoy playing the piano, watching
