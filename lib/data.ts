@@ -1,9 +1,8 @@
-import React from 'react';
+import {createElement} from 'react';
 import {CgWorkAlt} from 'react-icons/cg';
-import {FaReact} from 'react-icons/fa';
 import pInventory from '@/public/pInventory.png';
-import rmtdevImg from '@/public/rmtdev.png';
-import wordanalyticsImg from '@/public/wordanalytics.png';
+import disha from '@/public/dish.png';
+import tef from '@/public/tef.png';
 
 export const links = [
   {
@@ -38,15 +37,15 @@ export const experiencesData = [
     location: 'Lagos, NG',
     description:
       'I worked as a front-end developer, developing user-oriented visuals and features using front-end languages, including HTML5, CSS3, Bootstrap Framework and jQuery/JavaScript.',
-    icon: React.createElement(CgWorkAlt),
+    icon: createElement(CgWorkAlt),
     date: '2015 - 2016',
   },
   {
     title: 'Greenwich Media',
     location: 'Lagos NG',
     description:
-      'I worked as a WordPress developer, leveraging my strong understanding of WordPress core to develop and manipulate admin and theme components. I also up-skilled to React Developer.',
-    icon: React.createElement(CgWorkAlt),
+      'I worked as a WordPress developer, leveraging my design skills with Figma and strong understanding of WordPress and Elementor to develop websites and manipulate admin and theme components. I also up-skilled to React Developer.',
+    icon: createElement(CgWorkAlt),
     date: '2016 - 2017',
   },
   {
@@ -54,7 +53,7 @@ export const experiencesData = [
     location: 'Remote',
     description:
       'I worked as a lead frontend developer for various projects including a CRM for academic agents to collect and analyze student data for admission into top Universities around the world.',
-    icon: React.createElement(CgWorkAlt),
+    icon: createElement(CgWorkAlt),
     date: '2017 - 2020',
   },
   {
@@ -62,7 +61,7 @@ export const experiencesData = [
     location: 'Dallas TX',
     description:
       'I worked as a front-end developer developing web pages and applications using HTML5, CSS3, JavaScript, some .NET and C# for partner Universities.',
-    icon: React.createElement(CgWorkAlt),
+    icon: createElement(CgWorkAlt),
     date: '2020 - 2021',
   },
   {
@@ -70,7 +69,7 @@ export const experiencesData = [
     location: 'Dallas TX',
     description:
       'I worked as a UI developer, working on a React driven banking application. Created UI components with reusable codes for a better user experience using React, TypeScript, Storybook and Sass for styling.',
-    icon: React.createElement(CgWorkAlt),
+    icon: createElement(CgWorkAlt),
     date: '2021 - 2023',
   },
 ] as const;
@@ -79,7 +78,7 @@ export const projectsData = [
   {
     title: 'Product Inventory System',
     description:
-      'A full-stack product inventory system to control and manage products in in real-time.',
+      'A full-stack product inventory system to control and manage products in real-time.',
     tags: [
       'React',
       'Node',
@@ -92,6 +91,36 @@ export const projectsData = [
     ],
     imageUrl: pInventory,
     link: 'https://pinventory.onrender.com',
+  },
+  {
+    title: 'Disha.co',
+    description:
+      'A zero code web builder for creating websites and web applications.',
+    tags: [
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'Elementor',
+      'WordPress',
+      'Figma',
+    ],
+    imageUrl: disha,
+    link: 'https://getdisha.co/pages',
+  },
+  {
+    title: 'The Tony Elumelu Foundation',
+    description:
+      'African private-sector-led philanthropy empowering African entrepreneurs to create jobs on the continent.',
+    tags: [
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'Elementor',
+      'WordPress',
+      'Figma',
+    ],
+    imageUrl: tef,
+    link: 'https://www.tonyelumelufoundation.org',
   },
 ] as const;
 
@@ -114,6 +143,9 @@ export const skillsData = [
   'Prisma',
   'MongoDB',
   'Express',
+  'WordPress',
+  'Figma',
+  'Framer',
   'Framer Motion',
   'CI/CD',
   'AWS',
