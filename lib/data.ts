@@ -2,6 +2,7 @@ import {createElement} from 'react';
 import {CgWorkAlt} from 'react-icons/cg';
 import pInventory from '@/public/pInventory.png';
 import disha from '@/public/dish.png';
+import sterling from '@/public/sterling.png';
 import tef from '@/public/tef.png';
 
 export const links = [
@@ -106,6 +107,21 @@ export const projectsData = [
     ],
     imageUrl: disha,
     link: 'https://getdisha.co/pages',
+  },
+  {
+    title: 'Sterling Bank',
+    description:
+      'Digital transformation of the bank website.',
+    tags: [
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'Elementor',
+      'WordPress',
+      'Figma',
+    ],
+    imageUrl: sterling,
+    link: 'https://sterling.ng/bank',
   },
   {
     title: 'The Tony Elumelu Foundation',
